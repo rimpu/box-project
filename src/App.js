@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-import { MainPageLayout } from "./components/MainPageLayout";
 import {Home} from "./pages/Home";
 import {Starred} from "./pages/Starred";
 
