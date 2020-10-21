@@ -5,15 +5,47 @@ import { getAllResults } from '../misc/config'
 const Show = () => {
   const {id} = useParams();
   const [result,setResult] = useState(null);
+  const [isLoading,setIsLoading] = useState(true);
+  const [error,setError] = useState(null);
+
   useEffect(()=>{
+    let isMounted = true;
+
     getAllResults(`/shows/${id}?embed[]=seasons&embed[]=cast`)
-    .then(result => setResult(result));
+    .then(
+      result => 
+      {
+        setTimeout(()=>{
+          if(isMounted){
+            setResult(result);
+          setIsLoading(false);
+          }
+        },2000)
+        setIsLoading(true)
+      }
+      ).catch(e=>{
+        if(isMounted){
+          setError(e.message);
+          setIsLoading(false)
+        }
+        
+      });
+
+      return ()=>{
+        isMounted = false;
+      }
   },[id])
+  if(isLoading){
+    return <div>Data is being loaded...</div>
+  }
+  else if(error){
+  return <div>{error}</div>
+  }
   return (
     <div>
-      This is show page
+      Show
     </div>
   )
 }
 
-export default Show
+export default Show;
