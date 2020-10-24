@@ -5,7 +5,6 @@ import {useLocation} from "react-router-dom";
 export const Nav = () => {
 
   const location = useLocation();
-
   const links = [{to:"/",text:"Home"},{to:"/starred",text:"Starred"}]
 
   return (
