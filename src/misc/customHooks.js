@@ -28,3 +28,7 @@ function usePersistedReducer(reducer,initialState,key){
 export function useShows(key ="shows"){
   return usePersistedReducer(showReducer,[],key)
 }
+
+export function useLastQuery(key="lastQuery"){
+  
+}
