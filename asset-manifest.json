@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/box-project/static/css/main.3cd6ee85.chunk.css",
-    "main.js": "/box-project/static/js/main.0f437611.chunk.js",
-    "main.js.map": "/box-project/static/js/main.0f437611.chunk.js.map",
+    "main.js": "/box-project/static/js/main.cc0f45ab.chunk.js",
+    "main.js.map": "/box-project/static/js/main.cc0f45ab.chunk.js.map",
     "runtime-main.js": "/box-project/static/js/runtime-main.4e631308.js",
     "runtime-main.js.map": "/box-project/static/js/runtime-main.4e631308.js.map",
-    "static/js/2.270bcbb2.chunk.js": "/box-project/static/js/2.270bcbb2.chunk.js",
-    "static/js/2.270bcbb2.chunk.js.map": "/box-project/static/js/2.270bcbb2.chunk.js.map",
+    "static/js/2.e27aef88.chunk.js": "/box-project/static/js/2.e27aef88.chunk.js",
+    "static/js/2.e27aef88.chunk.js.map": "/box-project/static/js/2.e27aef88.chunk.js.map",
     "index.html": "/box-project/index.html",
-    "precache-manifest.f5979b6a8d78b91625e599d4dafd16e2.js": "/box-project/precache-manifest.f5979b6a8d78b91625e599d4dafd16e2.js",
+    "precache-manifest.37ff934e5f2e2dbec29b2ac0fbdb8170.js": "/box-project/precache-manifest.37ff934e5f2e2dbec29b2ac0fbdb8170.js",
     "service-worker.js": "/box-project/service-worker.js",
     "static/css/main.3cd6ee85.chunk.css.map": "/box-project/static/css/main.3cd6ee85.chunk.css.map",
-    "static/js/2.270bcbb2.chunk.js.LICENSE.txt": "/box-project/static/js/2.270bcbb2.chunk.js.LICENSE.txt"
+    "static/js/2.e27aef88.chunk.js.LICENSE.txt": "/box-project/static/js/2.e27aef88.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4e631308.js",
-    "static/js/2.270bcbb2.chunk.js",
+    "static/js/2.e27aef88.chunk.js",
     "static/css/main.3cd6ee85.chunk.css",
-    "static/js/main.0f437611.chunk.js"
+    "static/js/main.cc0f45ab.chunk.js"
   ]
 }
